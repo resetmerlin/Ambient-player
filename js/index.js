@@ -3,14 +3,17 @@ const prev = document.querySelector(".prev");
 const playPause = document.querySelector(".playPause");
 const next = document.querySelector(".next");
 const audio = document.querySelector(".audio");
+const video = document.querySelector(".wallpaper");
 
 const songList = [
   {
     path: "songs/chill.mp3",
+
     songName: "Chill",
   },
   {
     path: "songs/heavenly.mp3",
+
     songName: "Heavenly",
   },
   {
@@ -49,8 +52,23 @@ function kt() {
 function loadSong(songList) {
   title.textContent = songList.songName;
   audio.src = songList.path;
+  changeVid(event);
 }
 
+function changeVid(event) {
+  event.preventDefault();
+
+  let type = video.src;
+  if (i == 1) {
+    if (type !== `img/livingroom.mp4`) {
+      video.src = `img/livingroom.mp4`;
+    }
+  } else if (i == 2) {
+    if (type !== `img/lofi.mp4`) {
+      video.src = `img/lofi.mp4`;
+    }
+  }
+}
 let i = 0;
 
 function prevSong() {
