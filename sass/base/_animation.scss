@@ -1,0 +1,25 @@
+@-webkit-keyframes play{
+    0%{
+        background-position: 0px;
+    }
+       20%{
+        background-position: -11rem;
+    }
+    35%{
+        background-position: -18rem;
+    }
+
+    50%{
+        background-position: -21rem;
+    }
+
+    80%{
+        background-position: -35rem;
+    }
+
+    100%{
+        background-position: -39rem;
+    }
+
+
+}

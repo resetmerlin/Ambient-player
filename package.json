@@ -1,0 +1,25 @@
+{
+  "name": "ambient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resetmerlin/Ambient-player.git"
+  },
+  "author": "Merlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resetmerlin/Ambient-player/issues"
+  },
+  "homepage": "https://github.com/resetmerlin/Ambient-player#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "dependencies": {
+    "howler": "^2.2.3"
+  }
+}
