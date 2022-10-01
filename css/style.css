@@ -19,6 +19,43 @@ body {
   line-height: 1.7;
   box-sizing: border-box; }
 
+.effects {
+  position: absolute;
+  top: 5%;
+  left: 93%;
+  width: 30rem;
+  height: 15rem;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30rem;
+  align-items: center;
+  font-size: 5rem;
+  transform: translate(-50%, -50%);
+  color: #999898; }
+  .effects__default {
+    width: 7rem;
+    height: 7rem;
+    background-color: #999898;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    box-shadow: 0rem 0.5rem 1.5rem rgba(185, 185, 185, 0.582), 1rem 1rem 1.5rem rgba(0, 0, 0, 0.1), inset -0.5rem 5rem 1.5rem rgba(185, 185, 185, 0.582), inset 0.5rem 5rem 1.5rem rgba(0, 0, 0, 0.1); }
+  .effects .rain:active {
+    color: #fff; }
+  .effects .rain.active {
+    color: #fff; }
+  .effects .thunder:active {
+    color: #fff; }
+  .effects .thunder.active {
+    color: #fff; }
+  .effects .wind:active {
+    color: #fff; }
+  .effects .wind.active {
+    color: #fff; }
+
 *, *::after,
 *::before {
   margin: 0;
@@ -113,7 +150,7 @@ body {
     left: 2rem;
     font-weight: 600; }
     .header__logo-text:visited, .header__logo-text:link {
-      color: rgba(185, 185, 185, 0.582);
+      color: #fff;
       text-decoration: none;
       padding: 0.3rem;
       font-size: 6rem;
