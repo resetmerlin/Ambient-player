@@ -5,3 +5,7 @@
 서버 만드는것도 모르고,,, 이때까지 live server extension만 써왔기 때문에 다운받고 index.html live server하는 수 밖에 없을 거 같네요,,
 
 아직 미천한 입문자입니다.
+
+
+https://user-images.githubusercontent.com/108568153/193479173-4f5b649d-e963-4f8c-85cb-0b719fc2fc92.mp4
+
